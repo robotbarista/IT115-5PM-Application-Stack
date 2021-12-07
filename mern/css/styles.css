@@ -87,7 +87,11 @@ p {
 #about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 50px;
     margin-left: 300px;
+}
+
+footer p {
+    float:right;
+    margin-right: 30px;
 }
 
