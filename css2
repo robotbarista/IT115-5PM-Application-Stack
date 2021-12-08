@@ -76,3 +76,13 @@ body {
   li a:hover {
     background-color: #CD853F;
   }
+  
+  #about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 300px;
+}
+
+footer p {
+    float:right;
+    margin-right: 30px;
