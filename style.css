@@ -76,6 +76,21 @@ body {
   li a:hover {
     background-color: #CD853F;
   }
+
+a:visited {
+  color: teal;
+}
+
+
+a:hover {
+  color: tan;
+}
+
+
+a:active {
+  color: firebrick
+  ;
+}
   
   #about {
     display: grid;
@@ -86,3 +101,5 @@ body {
 footer p {
     float:right;
     margin-right: 30px;
+
+ 
