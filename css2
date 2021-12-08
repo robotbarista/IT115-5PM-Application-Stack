@@ -1,62 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MERN tutorial IT115</title>
-</head>
-<body>
-    <div id="wrapper">
-        <header>
-            <nav class="nav">
-            <div>
-                <h1><a href="index.html">IT115 MERN Tutorial Stack</a></h1>
-                <a href="index.html"></a>
-            </div>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="reference.html">Reference</a></li>
-                </ul>
-            </nav>
-        </header>
+html {
+    font-family: calibri;
+    background-color: #F4A460;
+    
+  }
 
-    <main>
-        <div>
-            <h1>MERN Stack & Tutorial</h1>
-            <div><img src="images/mern.png" alt="image"></div>
-            <p><b>MERN</b> is an acronym for MongoDB, Express, React, and Node, and they are the key technologies that make up this particular stack.</p>
-            <p>The MERN stack provides the opportunity to create 3-tier architecture consisting of a frontend, backend and database exclusively using JavaScript and JSON.  It improves the end users experience and is utilized for easier and faster deployment of full stack web applications. The languages technologies that MERN utilizes being JavaScript means it is also an easier stack to learn.</p>
-            <h2>To break down the particular components that make up this stack:</h2>
-            <p><b>Mongo DB</b> is a document database that is non relational and it contains documents. They are stored with like documents, and the system is scalable and flexible.</p>
-            <p><b>Express.js</b> is a server side framework that makes it easy to connect to databases like Mongo DB and helps the Node and web application fast and seamless. These components are on the application tier.</p>
-            <p><b>Node.js</b> gives you the ability to to execute JavaScript outside a browser. It is not a framework or a browsing language. It provides web server functionality.</p>
-            <p><b>React</b> is a front end Javascript library/ framework. It gives you the tools to build your application.
-            </p>
-        </div>
-    </main>
+body {
+    background-color: #FAFAD2;
+    width: 98%;
+  
+  }
+  
+  h1 {;   
+    color: 808080;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  p {
+    font-family: calibri;
+    font-size: 12px;
+  }
+  
+  b {
+    font-size: 16px;
+    color: #483D8B;
+  }
+  
+  .pbor {
+    border: 2px solid slategray;
+    width: 30%;
+    padding: 20px;
+    margin: 5px; auto;
+  }
 
-    <section>
-        <div>
-            <h3 id="subti"><a href="xxx">MERN Stack Tutorial</a></h3>
-        </div>
+  .subti {
+    font-size: 18px;
+    border-left: 7px solid red;
+    padding: 5px;
+    color: rgb(60, 60, 60);
+  }
 
-        <div>
-            <h3 id="subti"><a href="xxx">Web Application Tutorial</a></h3>
-        </div>
-        <div>
-            <h3 id="subti"><a href="xxx">GitHub Repo</a></h3>
-        </div>
-    </section>
+  .bgpg {
+    color: #FFF;
+    background-color:#CD853F;
+    padding: 20px;
+    width: 30%;
+  }
 
-    <footer>
-        <hr>
-        <p>Completed by Emmy, Nicholas, Minnie, Gina, Arthur, Alexis, and Grace</p>
-    </footer>
-
-    </div> <!--end wrapper-->
-</body>
-
-</html>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #CD853F;
+  }
