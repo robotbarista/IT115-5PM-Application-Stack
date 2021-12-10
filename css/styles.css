@@ -1,105 +1,93 @@
 html {
     font-family: calibri;
     background-color: #F4A460;
-    
-  }
+
+}
 
 body {
     background-color: #FAFAD2;
     width: 98%;
-  
-  }
-  
-  h1 {;   
-    color: 808080;
+
+}
+.wrapper {
+    margin: 0 auto;
+}
+
+img {
+    max-width:100%;
+    display:block;
+}
+
+h1 {
+    color: #808080;
     text-align: center;
     font-size: 24px;
-  }
-  
-  h2 {
+    margin: 20px auto;
+}
+
+h2 {
     color: #000000;
     text-align: center;
     font-size: 20px;
-  }
-  
-  p {
+}
+
+p {
     font-family: calibri;
     font-size: 12px;
-  }
-  
-  b {
-    font-size: 16px;
-    color: #483D8B;
-  }
-  
-  .pbor {
+}
+
+.pbor {
     border: 2px solid slategray;
     width: 30%;
     padding: 20px;
-    margin: 5px; auto;
-  }
+    margin: 5px auto;
+}
 
-  .subti {
+.subti {
     font-size: 18px;
     border-left: 7px solid red;
     padding: 5px;
     color: rgb(60, 60, 60);
-  }
+}
 
-  .bgpg {
+.bgpg {
     color: #FFF;
     background-color:#CD853F;
     padding: 20px;
     width: 30%;
-  }
+}
 
-  ul {
+.nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: brown;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+}
+
+.nav li {
+    float: right;
+}
+
+.nav {
     display: block;
+    background-color: brown;
+    line-height: 50px;
+}
+
+.nav a {
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+    float: left;
+    padding: 5px 16px;
+}
+
+.nav a:hover {
     background-color: #CD853F;
-  }
-
-a:visited {
-  color: teal;
 }
 
-
-a:hover {
-  color: tan;
-}
-
-
-a:active {
-  color: firebrick
-  ;
-}
-  
-  #about {
+#about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 300px;
+    margin: 50px;
+    margin-left:300px;
 }
 
-footer p {
-    float:right;
-    margin-right: 30px;
-
- 
